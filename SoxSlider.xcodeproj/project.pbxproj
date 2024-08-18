@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A11803B2C727C50009E10DB /* README.osx.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A11802F2C727C50009E10DB /* README.osx.txt */; };
+		6A11803C2C727C50009E10DB /* soxi.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A1180302C727C50009E10DB /* soxi.txt */; };
+		6A11803D2C727C50009E10DB /* sox.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A1180312C727C50009E10DB /* sox.txt */; };
+		6A11803E2C727C50009E10DB /* soxformat.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A1180322C727C50009E10DB /* soxformat.txt */; };
+		6A11803F2C727C50009E10DB /* ChangeLog in Resources */ = {isa = PBXBuildFile; fileRef = 6A1180332C727C50009E10DB /* ChangeLog */; };
+		6A1180402C727C50009E10DB /* play in Resources */ = {isa = PBXBuildFile; fileRef = 6A1180342C727C50009E10DB /* play */; };
+		6A1180412C727C50009E10DB /* soxi in Resources */ = {isa = PBXBuildFile; fileRef = 6A1180352C727C50009E10DB /* soxi */; };
+		6A1180422C727C50009E10DB /* LICENSE.GPL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A1180362C727C50009E10DB /* LICENSE.GPL.txt */; };
+		6A1180432C727C50009E10DB /* sox in Resources */ = {isa = PBXBuildFile; fileRef = 6A1180372C727C50009E10DB /* sox */; };
+		6A1180442C727C50009E10DB /* libsox.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A1180382C727C50009E10DB /* libsox.txt */; };
+		6A1180452C727C50009E10DB /* rec in Resources */ = {isa = PBXBuildFile; fileRef = 6A1180392C727C50009E10DB /* rec */; };
+		6A1180462C727C50009E10DB /* README in Resources */ = {isa = PBXBuildFile; fileRef = 6A11803A2C727C50009E10DB /* README */; };
+		6A51CFDB2C727085003FCA61 /* SoxSliderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A51CFDA2C727085003FCA61 /* SoxSliderApp.swift */; };
+		6A51CFDD2C727085003FCA61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A51CFDC2C727085003FCA61 /* ContentView.swift */; };
+		6A51CFDF2C727086003FCA61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A51CFDE2C727086003FCA61 /* Assets.xcassets */; };
+		6A51CFE22C727086003FCA61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A51CFE12C727086003FCA61 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A11802F2C727C50009E10DB /* README.osx.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.osx.txt; sourceTree = "<group>"; };
+		6A1180302C727C50009E10DB /* soxi.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = soxi.txt; sourceTree = "<group>"; };
+		6A1180312C727C50009E10DB /* sox.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sox.txt; sourceTree = "<group>"; };
+		6A1180322C727C50009E10DB /* soxformat.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = soxformat.txt; sourceTree = "<group>"; };
+		6A1180332C727C50009E10DB /* ChangeLog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		6A1180342C727C50009E10DB /* play */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = play; sourceTree = "<group>"; };
+		6A1180352C727C50009E10DB /* soxi */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = soxi; sourceTree = "<group>"; };
+		6A1180362C727C50009E10DB /* LICENSE.GPL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.GPL.txt; sourceTree = "<group>"; };
+		6A1180372C727C50009E10DB /* sox */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = sox; sourceTree = "<group>"; };
+		6A1180382C727C50009E10DB /* libsox.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libsox.txt; sourceTree = "<group>"; };
+		6A1180392C727C50009E10DB /* rec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rec; sourceTree = "<group>"; };
+		6A11803A2C727C50009E10DB /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		6A51CFD72C727085003FCA61 /* SoxSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoxSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A51CFDA2C727085003FCA61 /* SoxSliderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoxSliderApp.swift; sourceTree = "<group>"; };
+		6A51CFDC2C727085003FCA61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6A51CFDE2C727086003FCA61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A51CFE12C727086003FCA61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6A51CFE32C727086003FCA61 /* SoxSlider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SoxSlider.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A51CFD42C727085003FCA61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A11802E2C727C3C009E10DB /* Binaries */ = {
+			isa = PBXGroup;
+			children = (
+				6A1180332C727C50009E10DB /* ChangeLog */,
+				6A1180382C727C50009E10DB /* libsox.txt */,
+				6A1180362C727C50009E10DB /* LICENSE.GPL.txt */,
+				6A1180342C727C50009E10DB /* play */,
+				6A11803A2C727C50009E10DB /* README */,
+				6A11802F2C727C50009E10DB /* README.osx.txt */,
+				6A1180392C727C50009E10DB /* rec */,
+				6A1180372C727C50009E10DB /* sox */,
+				6A1180312C727C50009E10DB /* sox.txt */,
+				6A1180322C727C50009E10DB /* soxformat.txt */,
+				6A1180352C727C50009E10DB /* soxi */,
+				6A1180302C727C50009E10DB /* soxi.txt */,
+			);
+			path = Binaries;
+			sourceTree = "<group>";
+		};
+		6A51CFCE2C727085003FCA61 = {
+			isa = PBXGroup;
+			children = (
+				6A11802E2C727C3C009E10DB /* Binaries */,
+				6A51CFD92C727085003FCA61 /* SoxSlider */,
+				6A51CFD82C727085003FCA61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A51CFD82C727085003FCA61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A51CFD72C727085003FCA61 /* SoxSlider.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A51CFD92C727085003FCA61 /* SoxSlider */ = {
+			isa = PBXGroup;
+			children = (
+				6A51CFDA2C727085003FCA61 /* SoxSliderApp.swift */,
+				6A51CFDC2C727085003FCA61 /* ContentView.swift */,
+				6A51CFDE2C727086003FCA61 /* Assets.xcassets */,
+				6A51CFE32C727086003FCA61 /* SoxSlider.entitlements */,
+				6A51CFE02C727086003FCA61 /* Preview Content */,
+			);
+			path = SoxSlider;
+			sourceTree = "<group>";
+		};
+		6A51CFE02C727086003FCA61 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6A51CFE12C727086003FCA61 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A51CFD62C727085003FCA61 /* SoxSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A51CFE62C727086003FCA61 /* Build configuration list for PBXNativeTarget "SoxSlider" */;
+			buildPhases = (
+				6A51CFD32C727085003FCA61 /* Sources */,
+				6A51CFD42C727085003FCA61 /* Frameworks */,
+				6A51CFD52C727085003FCA61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoxSlider;
+			productName = SoxSlider;
+			productReference = 6A51CFD72C727085003FCA61 /* SoxSlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A51CFCF2C727085003FCA61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					6A51CFD62C727085003FCA61 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 6A51CFD22C727085003FCA61 /* Build configuration list for PBXProject "SoxSlider" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A51CFCE2C727085003FCA61;
+			productRefGroup = 6A51CFD82C727085003FCA61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A51CFD62C727085003FCA61 /* SoxSlider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A51CFD52C727085003FCA61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1180452C727C50009E10DB /* rec in Resources */,
+				6A1180432C727C50009E10DB /* sox in Resources */,
+				6A11803D2C727C50009E10DB /* sox.txt in Resources */,
+				6A1180412C727C50009E10DB /* soxi in Resources */,
+				6A11803B2C727C50009E10DB /* README.osx.txt in Resources */,
+				6A1180402C727C50009E10DB /* play in Resources */,
+				6A1180462C727C50009E10DB /* README in Resources */,
+				6A11803E2C727C50009E10DB /* soxformat.txt in Resources */,
+				6A11803C2C727C50009E10DB /* soxi.txt in Resources */,
+				6A51CFE22C727086003FCA61 /* Preview Assets.xcassets in Resources */,
+				6A11803F2C727C50009E10DB /* ChangeLog in Resources */,
+				6A1180442C727C50009E10DB /* libsox.txt in Resources */,
+				6A51CFDF2C727086003FCA61 /* Assets.xcassets in Resources */,
+				6A1180422C727C50009E10DB /* LICENSE.GPL.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A51CFD32C727085003FCA61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A51CFDD2C727085003FCA61 /* ContentView.swift in Sources */,
+				6A51CFDB2C727085003FCA61 /* SoxSliderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6A51CFE42C727086003FCA61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A51CFE52C727086003FCA61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		6A51CFE72C727086003FCA61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=macosx*]" = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = SoxSlider/SoxSlider.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SoxSlider/Preview Content\"";
+				DEVELOPMENT_TEAM = GDPCQTA2S2;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sox Slider";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To capture audio";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = djs.SoxSlider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6A51CFE82C727086003FCA61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=macosx*]" = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = SoxSlider/SoxSlider.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SoxSlider/Preview Content\"";
+				DEVELOPMENT_TEAM = GDPCQTA2S2;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sox Slider";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To capture audio";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = djs.SoxSlider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A51CFD22C727085003FCA61 /* Build configuration list for PBXProject "SoxSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A51CFE42C727086003FCA61 /* Debug */,
+				6A51CFE52C727086003FCA61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A51CFE62C727086003FCA61 /* Build configuration list for PBXNativeTarget "SoxSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A51CFE72C727086003FCA61 /* Debug */,
+				6A51CFE82C727086003FCA61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A51CFCF2C727085003FCA61 /* Project object */;
+}
